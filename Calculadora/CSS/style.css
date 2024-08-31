@@ -1,60 +1,79 @@
 body {
-   max-width: 900px;
-   margin: 0 auto;
- }
- 
- p {
-   margin: 0;
-   padding: 0;
- }
- 
- header{
-   background-color: rgb(30, 30, 30);
-   padding: 20px;
-   border-top-right-radius: 25px;
-   border-top-left-radius: 25px;
-   border-bottom: 2px solid lightgray;
- }
- 
- h1 {
-   color: greenyellow;
-   text-align: center;
- }
- 
- .inputCnt {
-   display: flex;
-   justify-content: space-evenly;
- }
- 
- label {
-   color: greenyellow;
- }
- 
- #botaoCalcular {
-   background-color: greenyellow;
-   border: none;
-   border-radius: 5px;
- }
- 
- main {
-   background-color: rgb(60, 60, 60);
-   padding: 20px;
-   border-bottom-right-radius: 25px;
-   border-bottom-left-radius: 25px;
-   display: 50px;
- }
- 
- .calculoCnt {
-   border: 1px solid black;
-   width: 100%;
-   padding: 10px;
- }
- 
- .calculoNome {
-   color: #6980d6;
- }
- 
- .resultado {
-   color: white;
-   font-size: 2em;
- }
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  background-color: #f3f0ff; /* Fundo claro para contraste com os elementos lilás */
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #3a0057; /* Fundo lilás escuro */
+  padding: 20px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom: 2px solid #b19cd9; /* Borda lilás clara */
+}
+
+h1 {
+  color: #d1b3ff; /* Título em lilás claro */
+  text-align: center;
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.inputCnt {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+label {
+  color: #d1b3ff; /* Cor do texto lilás claro */
+  font-weight: bold;
+}
+
+#botaoCalcular {
+  background-color: #9a4f97; /* Botão lilás */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#botaoCalcular:hover {
+  background-color: #7d3a76; /* Cor ao passar o mouse */
+}
+
+main {
+  background-color: #4a006e; /* Fundo lilás médio */
+  padding: 20px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.calculoCnt {
+  border: 1px solid #b19cd9; /* Borda lilás clara */
+  background-color: #5e007e; /* Fundo lilás mais escuro */
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.calculoNome {
+  color: #e0aaff; /* Texto lilás mais claro */
+  font-weight: bold;
+}
+
+.resultado {
+  color: #ffffff;
+  font-size: 2em;
+  margin-top: 10px;
+  text-align: center;
+}
